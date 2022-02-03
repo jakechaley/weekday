@@ -11,7 +11,7 @@ describe('dayOfWeek', () => {
   test('should return day of the week corresponding to the index number', () => {
     const newDay = new Date('02/02/2022');
     const weekDay = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-    expect(weekDay[newDay.getDay()]).toEqual('Tuesday');
+    expect(weekDay[newDay.getDay()]).toEqual('Wednesday');
   });
 });
 
