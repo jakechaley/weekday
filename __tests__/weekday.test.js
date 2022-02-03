@@ -1,11 +1,12 @@
 import { TestScheduler } from 'jest';
-import Date from './../src/weekday.js';
+import dayOfWeek from './../src/weekday.js';
 
-describe('Date', () => {
-  test('should return full date', () => {
-    const myDate = new Date('02/02/2022');
-    expect(myDate.fullDate).toEqual('02/02/2022');
-
+describe('dayOfWeek', () => {
+  test('should return day of the week in number from 0-6', () => {
+    const newDay = new Date('02/02/2022');
+    const result = dayOfWeek(newDay);
+    expect(result).toEqual(3);
+    
   });
 });
 

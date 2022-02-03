@@ -1,3 +1,3 @@
-export default class Date {
+export default function dayOfWeek() {
   
-};
+}
