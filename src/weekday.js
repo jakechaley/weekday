@@ -1,4 +1,4 @@
 export default function dayOfWeek(newDay) {
-  // return date.getDay();
+  return newDay.getDay();
 }
 
