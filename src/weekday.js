@@ -1,3 +1,4 @@
-export default function dayOfWeek(date) {
-  return date.getDay();
+export default function dayOfWeek(newDay) {
+  // return date.getDay();
 }
+
